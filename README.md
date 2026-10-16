@@ -3,6 +3,9 @@
 **Wordless first assessment for emergency intake.**
 A patient who cannot describe their pain — a young child, an elderly patient, a worker who does not share a language with the nurse — *shows* it instead of telling it, and the clinician receives a structured, bilingual intake summary with a suggested triage priority.
 
+**▶ Live demo: https://lamaabdulazizbinaskar.github.io/FarzProject/**
+**▶ Clinician board: https://lamaabdulazizbinaskar.github.io/FarzProject/#dashboard**
+
 Built for the HyperBloom October UI/UX & Web Design Hackathon.
 
 ---
@@ -43,7 +46,7 @@ npm install
 npm run dev
 ```
 
-The patient app runs at `http://localhost:5173`, and the clinician board at `http://localhost:5173/dashboard`.
+The patient app runs at `http://localhost:5173`, and the clinician board at `http://localhost:5173/#dashboard`.
 
 The board reads from a small Express service with in-memory storage; submissions expire automatically after four hours and nothing is written to disk.
 
@@ -51,7 +54,7 @@ The board reads from a small Express service with in-memory storage; submissions
 npm run server
 ```
 
-The patient flow works entirely without the server — only the live board needs it.
+The patient flow works entirely without the server. The board works without it too: when the service is unreachable — as on the static demo above — it falls back to a browser-local store and says so on screen, so an intake submitted in one tab appears on the board in another tab of the same browser.
 
 ## Stack
 
