@@ -1,0 +1,1 @@
+export const INTENSITY_GRADIENT = ['#1F7A73', '#3F9178', '#7FA85A', '#C9924A', '#DD7A4C', '#E8664F'];

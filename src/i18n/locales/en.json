@@ -1,0 +1,287 @@
+{
+  "app": {
+    "name": "Farz",
+    "tagline": "Wordless first assessment"
+  },
+  "common": {
+    "start": "Start",
+    "next": "Next",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "edit": "Edit",
+    "continue": "Continue",
+    "iDontKnow": "I don't know",
+    "left": "Left",
+    "right": "Right",
+    "front": "Front",
+    "backSide": "Back",
+    "audioOn": "Audio on",
+    "audioOff": "Audio off",
+    "largeMode": "Large mode",
+    "language": "Language",
+    "spot": "Spot {{number}}",
+    "of10": "/10"
+  },
+  "welcome": {
+    "title": "Where Does It Hurt?",
+    "subtitle": "Show the doctor what hurts — no words needed.",
+    "start": "Start",
+    "trustNoTyping": "No typing",
+    "trustNoAccount": "No account",
+    "trustLanguages": "Arabic & English",
+    "emergency": "If you feel very unwell, tell a staff member right away."
+  },
+  "language": {
+    "title": "Choose your language",
+    "subtitle": "Tap a language to hear it, then continue."
+  },
+  "patientType": {
+    "title": "Who is hurting?",
+    "self": "It's me",
+    "child": "My child",
+    "helping": "Someone I'm helping",
+    "relation": {
+      "title": "Who are you to them?",
+      "family": "Family member",
+      "spouse": "Spouse",
+      "parent": "Parent",
+      "friend": "Friend",
+      "coworker": "Co-worker",
+      "caregiver": "Carer",
+      "other": "Companion"
+    }
+  },
+  "bodyMap": {
+    "title": "Tap where it hurts",
+    "subtitle": "You can mark more than one spot.",
+    "empty": "Tap where it hurts",
+    "flipToFront": "Show front",
+    "flipToBack": "Show back",
+    "figureMale": "Male figure",
+    "figureFemale": "Female figure",
+    "doneButton": "Continue",
+    "pinLabel": "Spot {{number}}: {{region}}",
+    "regions": {
+      "head": "Head",
+      "neck": "Neck",
+      "chest_left": "Left chest",
+      "chest_right": "Right chest",
+      "epigastric": "Upper middle belly",
+      "hypochondriac_left": "Upper belly, left side",
+      "hypochondriac_right": "Upper belly, right side",
+      "umbilical": "Around the navel",
+      "flank_left": "Side of belly, left",
+      "flank_right": "Side of belly, right",
+      "hypogastric": "Lower middle belly",
+      "iliac_left": "Lower belly, left side",
+      "iliac_right": "Lower belly, right side",
+      "back_upper": "Upper back",
+      "loin_left": "Lower back, left side",
+      "loin_right": "Lower back, right side",
+      "shoulder_left": "Left shoulder",
+      "shoulder_right": "Right shoulder",
+      "arm_left": "Left arm",
+      "arm_right": "Right arm",
+      "elbow_left": "Left elbow",
+      "elbow_right": "Right elbow",
+      "hand_left": "Left hand",
+      "hand_right": "Right hand",
+      "leg_left": "Left leg",
+      "leg_right": "Right leg",
+      "knee_left": "Left knee",
+      "knee_right": "Right knee",
+      "foot_left": "Left foot",
+      "foot_right": "Right foot"
+    },
+    "figureChild": "Child figure"
+  },
+  "painType": {
+    "title": "What does it feel like?",
+    "subtitle": "Choose all that fit.",
+    "types": {
+      "burning": "Burning",
+      "stabbing": "Stabbing",
+      "throbbing": "Throbbing",
+      "pressure": "Pressure",
+      "aching": "Aching",
+      "tingling": "Tingling",
+      "cramping": "Cramping",
+      "itching": "Itching",
+      "pricking": "Pricking",
+      "pinching": "Pinching",
+      "colicky": "Colicky (comes in waves)",
+      "stiffness": "Stiffness",
+      "numbness": "Numbness",
+      "unknown": "I don't know"
+    }
+  },
+  "intensity": {
+    "title": "How strong is it?",
+    "subtitle": "Tap the face that matches.",
+    "faces": {
+      "0": "No pain",
+      "2": "Mild",
+      "4": "Noticeable",
+      "6": "Strong",
+      "8": "Severe",
+      "10": "Worst pain"
+    }
+  },
+  "duration": {
+    "title": "Since when?",
+    "subtitle": "How long has this spot hurt?",
+    "options": {
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "today": "Today",
+      "days": "Days",
+      "weeks": "Weeks",
+      "months": "Months",
+      "unknown": "I don't know"
+    }
+  },
+  "pattern": {
+    "title": "How does it come?",
+    "subtitle": "Choose what matches best.",
+    "options": {
+      "constant": "Constant",
+      "intermittent": "Comes and goes",
+      "on_movement": "Only when I move",
+      "unknown": "I don't know"
+    }
+  },
+  "addAnother": {
+    "title": "Does another spot hurt?",
+    "subtitle": "You can add as many spots as you need.",
+    "yes": "Yes, add another",
+    "no": "No, continue"
+  },
+  "extras": {
+    "title": "Anything else?",
+    "subtitle": "Optional — choose any that apply.",
+    "options": {
+      "fever": "Fever",
+      "nausea": "Nausea",
+      "dizziness": "Dizziness",
+      "injury": "Fall or injury",
+      "bleeding": "Bleeding",
+      "breathing": "Trouble breathing",
+      "cant_move": "Can't move it"
+    }
+  },
+  "safety": {
+    "title": "Tell the staff now",
+    "message": "Please show this screen to a nurse or doctor immediately.",
+    "emergencyLabel": "Emergency number",
+    "emergencyNumber": "997"
+  },
+  "review": {
+    "title": "Review your answers",
+    "subtitle": "Tap any card to change it.",
+    "noSpots": "No spots added yet.",
+    "extrasTitle": "Other symptoms",
+    "showToDoctor": "Show to doctor",
+    "spotSummary": "{{types}} · {{intensity}}/10 · {{onset}}",
+    "visitRefHint": "Show this code at reception"
+  },
+  "doctor": {
+    "title": "Doctor view",
+    "formEyebrow": "Patient intake summary",
+    "generated": "Generated",
+    "patientTypeField": "Patient type",
+    "routine": "Routine",
+    "pickLanguage": "Your language",
+    "patientColumn": "Patient",
+    "doctorColumn": "Clinician",
+    "spot": "Spot {{number}}",
+    "region": "Location",
+    "type": "Quality",
+    "intensity": "Intensity",
+    "onset": "Onset",
+    "pattern": "Pattern",
+    "extras": "Associated symptoms",
+    "noExtras": "None reported",
+    "print": "Print / Save PDF",
+    "sendToDashboard": "Send to doctor's dashboard",
+    "sending": "Sending…",
+    "sent": "Sent to the dashboard",
+    "sendError": "Couldn't reach the dashboard. Is the server running?",
+    "sendNote": "Sends this summary to the clinic's live board. It's removed automatically after 4 hours.",
+    "openDashboard": "Open doctor dashboard",
+    "newPatient": "New patient",
+    "patientType": {
+      "self": "Adult patient, self-reported",
+      "child": "Pediatric patient",
+      "helping_someone": "Reported by companion"
+    },
+    "visitRef": "Visit reference",
+    "clinicalDisclaimer": "Patient-reported intake summary. Not a diagnosis. Final clinical decisions rest with the attending clinician.",
+    "companionRelation": "Companion's relationship"
+  },
+  "topbar": {
+    "newPatientConfirm": "Start a new patient? This clears all current answers."
+  },
+  "journey": {
+    "setup": "Setup",
+    "details": "Details",
+    "review": "Review",
+    "doctor": "Doctor"
+  },
+  "dashboard": {
+    "title": "Doctor dashboard",
+    "empty": "No patients waiting.",
+    "highRisk": "Urgent",
+    "spotsCount": "{{count}} spot",
+    "spotsCount_other": "{{count}} spots",
+    "markSeen": "Mark seen",
+    "markUnseen": "Mark unseen",
+    "dismiss": "Dismiss",
+    "justNow": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "connectionError": "Can't reach the dashboard server. Is it running?",
+    "offlineHint": "Start it with: npm run server",
+    "queue": "Triage queue",
+    "waiting": "waiting",
+    "noUrgent": "No urgent cases",
+    "longestWait": "Longest wait: {{count}} min"
+  },
+  "triage": {
+    "title": "Suggested priority",
+    "basedOn": "Based on",
+    "disclaimer": "Rule-based suggestion from patient-reported answers. Not a diagnosis — clinical assessment required.",
+    "level": {
+      "2": "Emergent",
+      "3": "Urgent",
+      "4": "Less urgent",
+      "5": "Non-urgent"
+    },
+    "levelShort": "Level {{level}}",
+    "reasons": {
+      "breathing": "Reported trouble breathing",
+      "chestPain": "Severe chest pain reported",
+      "maxPain": "Pain reported at maximum (10/10)",
+      "bleeding": "Bleeding reported",
+      "severePain": "Severe pain (7+/10)",
+      "cantMove": "Cannot move the affected area",
+      "injury": "Recent fall or injury with significant pain",
+      "feverPlus": "Fever with nausea or dizziness",
+      "moderatePain": "Moderate pain (4-6/10)",
+      "lowPain": "Mild or no pain reported"
+    }
+  },
+  "clinicalRegions": {
+    "epigastric": "Epigastric region",
+    "umbilical": "Umbilical region",
+    "hypogastric": "Hypogastric (suprapubic) region",
+    "hypochondriac_left": "Left hypochondriac region",
+    "hypochondriac_right": "Right hypochondriac region",
+    "flank_left": "Left lumbar (flank) region",
+    "flank_right": "Right lumbar (flank) region",
+    "iliac_left": "Left iliac fossa",
+    "iliac_right": "Right iliac fossa",
+    "loin_left": "Left loin",
+    "loin_right": "Right loin"
+  }
+}

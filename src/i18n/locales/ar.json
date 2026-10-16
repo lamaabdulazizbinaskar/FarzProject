@@ -1,0 +1,287 @@
+{
+  "app": {
+    "name": "فرز",
+    "tagline": "فحص أوّلي بدون كلام"
+  },
+  "common": {
+    "start": "ابدأ",
+    "next": "التالي",
+    "back": "رجوع",
+    "yes": "نعم",
+    "no": "لا",
+    "edit": "تعديل",
+    "continue": "استمرار",
+    "iDontKnow": "لا أعرف",
+    "left": "يسار",
+    "right": "يمين",
+    "front": "الأمام",
+    "backSide": "الخلف",
+    "audioOn": "الصوت مفعّل",
+    "audioOff": "الصوت متوقف",
+    "largeMode": "وضع العرض الكبير",
+    "language": "اللغة",
+    "spot": "الموضع {{number}}",
+    "of10": "/١٠"
+  },
+  "welcome": {
+    "title": "وين يوجعك؟",
+    "subtitle": "أظهر للطبيب وين الألم — بدون كلام.",
+    "start": "ابدأ",
+    "trustNoTyping": "بدون كتابة",
+    "trustNoAccount": "بدون حساب",
+    "trustLanguages": "العربية والإنجليزية",
+    "emergency": "إذا كنت تشعر بتوعك شديد، أخبر أحد الطاقم فوراً."
+  },
+  "language": {
+    "title": "اختر لغتك",
+    "subtitle": "اضغط على لغة لتسمعها، ثم استمر."
+  },
+  "patientType": {
+    "title": "من يشعر بالألم؟",
+    "self": "أنا",
+    "child": "طفلي",
+    "helping": "شخص أساعده",
+    "relation": {
+      "title": "ما صلتك به؟",
+      "family": "أحد أفراد العائلة",
+      "spouse": "زوج / زوجة",
+      "parent": "والد / والدة",
+      "friend": "صديق",
+      "coworker": "زميل عمل",
+      "caregiver": "مقدّم رعاية",
+      "other": "مرافق"
+    }
+  },
+  "bodyMap": {
+    "title": "اضغط على مكان الألم",
+    "subtitle": "تقدر تحدد أكثر من موضع.",
+    "empty": "اضغط على مكان الألم",
+    "flipToFront": "أظهر الأمام",
+    "flipToBack": "أظهر الخلف",
+    "figureMale": "شكل ذكر",
+    "figureFemale": "شكل أنثى",
+    "doneButton": "استمرار",
+    "pinLabel": "الموضع {{number}}: {{region}}",
+    "regions": {
+      "head": "الرأس",
+      "neck": "الرقبة",
+      "chest_left": "الصدر الأيسر",
+      "chest_right": "الصدر الأيمن",
+      "epigastric": "أعلى وسط البطن",
+      "hypochondriac_left": "أعلى البطن، الجهة اليسرى",
+      "hypochondriac_right": "أعلى البطن، الجهة اليمنى",
+      "umbilical": "حول السرّة",
+      "flank_left": "جانب البطن، اليسار",
+      "flank_right": "جانب البطن، اليمين",
+      "hypogastric": "أسفل وسط البطن",
+      "iliac_left": "أسفل البطن، الجهة اليسرى",
+      "iliac_right": "أسفل البطن، الجهة اليمنى",
+      "back_upper": "أعلى الظهر",
+      "loin_left": "أسفل الظهر، الجهة اليسرى",
+      "loin_right": "أسفل الظهر، الجهة اليمنى",
+      "shoulder_left": "الكتف الأيسر",
+      "shoulder_right": "الكتف الأيمن",
+      "arm_left": "الذراع اليسرى",
+      "arm_right": "الذراع اليمنى",
+      "elbow_left": "المرفق الأيسر",
+      "elbow_right": "المرفق الأيمن",
+      "hand_left": "اليد اليسرى",
+      "hand_right": "اليد اليمنى",
+      "leg_left": "الساق اليسرى",
+      "leg_right": "الساق اليمنى",
+      "knee_left": "الركبة اليسرى",
+      "knee_right": "الركبة اليمنى",
+      "foot_left": "القدم اليسرى",
+      "foot_right": "القدم اليمنى"
+    },
+    "figureChild": "شكل طفل"
+  },
+  "painType": {
+    "title": "كيف تشعر بالألم؟",
+    "subtitle": "اختر كل ما ينطبق.",
+    "types": {
+      "burning": "حرقان",
+      "stabbing": "وخز حاد",
+      "throbbing": "نابض",
+      "pressure": "ضغط",
+      "aching": "ألم خفيف مستمر",
+      "tingling": "تنميل",
+      "cramping": "تشنج",
+      "itching": "حكة",
+      "pricking": "نغزات",
+      "pinching": "تقريص",
+      "colicky": "مغص (يجي على شكل موجات)",
+      "stiffness": "تيبس",
+      "numbness": "خدر",
+      "unknown": "لا أعرف"
+    }
+  },
+  "intensity": {
+    "title": "كم شدة الألم؟",
+    "subtitle": "اضغط على الوجه المطابق.",
+    "faces": {
+      "0": "لا يوجد ألم",
+      "2": "خفيف",
+      "4": "ملحوظ",
+      "6": "قوي",
+      "8": "شديد",
+      "10": "أسوأ ألم"
+    }
+  },
+  "duration": {
+    "title": "منذ متى؟",
+    "subtitle": "منذ متى هذا الموضع يؤلمك؟",
+    "options": {
+      "minutes": "دقائق",
+      "hours": "ساعات",
+      "today": "اليوم",
+      "days": "أيام",
+      "weeks": "أسابيع",
+      "months": "أشهر",
+      "unknown": "لا أعرف"
+    }
+  },
+  "pattern": {
+    "title": "كيف يأتي الألم؟",
+    "subtitle": "اختر الأقرب لحالتك.",
+    "options": {
+      "constant": "مستمر",
+      "intermittent": "يجي ويروح",
+      "on_movement": "فقط عند الحركة",
+      "unknown": "لا أعرف"
+    }
+  },
+  "addAnother": {
+    "title": "هل يوجد موضع آخر يؤلمك؟",
+    "subtitle": "تقدر تضيف كل المواضع التي تحتاجها.",
+    "yes": "نعم، أضف موضع آخر",
+    "no": "لا، استمر"
+  },
+  "extras": {
+    "title": "هل يوجد شيء آخر؟",
+    "subtitle": "اختياري — اختر ما ينطبق.",
+    "options": {
+      "fever": "حرارة",
+      "nausea": "غثيان",
+      "dizziness": "دوخة",
+      "injury": "سقوط أو إصابة",
+      "bleeding": "نزيف",
+      "breathing": "صعوبة في التنفس",
+      "cant_move": "لا أستطيع تحريكه"
+    }
+  },
+  "safety": {
+    "title": "أخبر الطاقم الطبي الآن",
+    "message": "رجاءً أظهر هذه الشاشة للممرض أو الطبيب فوراً.",
+    "emergencyLabel": "رقم الطوارئ",
+    "emergencyNumber": "٩٩٧"
+  },
+  "review": {
+    "title": "راجع إجاباتك",
+    "subtitle": "اضغط على أي بطاقة لتغييرها.",
+    "noSpots": "لم تتم إضافة أي موضع بعد.",
+    "extrasTitle": "أعراض أخرى",
+    "showToDoctor": "أظهر للطبيب",
+    "spotSummary": "{{types}} · {{intensity}}/١٠ · {{onset}}",
+    "visitRefHint": "أظهر هذا الرقم في الاستقبال"
+  },
+  "doctor": {
+    "title": "عرض الطبيب",
+    "formEyebrow": "ملخص تقييم المريض",
+    "generated": "تاريخ الإنشاء",
+    "patientTypeField": "نوع المريض",
+    "routine": "غير عاجل",
+    "pickLanguage": "لغتك",
+    "patientColumn": "المريض",
+    "doctorColumn": "الطبيب",
+    "spot": "الموضع {{number}}",
+    "region": "الموقع",
+    "type": "نوع الألم",
+    "intensity": "الشدة",
+    "onset": "البداية",
+    "pattern": "النمط",
+    "extras": "أعراض مرتبطة",
+    "noExtras": "لا يوجد",
+    "print": "طباعة / حفظ PDF",
+    "sendToDashboard": "إرسال إلى لوحة الطبيب",
+    "sending": "جارٍ الإرسال…",
+    "sent": "تم الإرسال إلى اللوحة",
+    "sendError": "تعذّر الوصول إلى اللوحة. هل الخادم يعمل؟",
+    "sendNote": "يرسل هذا الملخص إلى لوحة العيادة الحيّة. يُحذف تلقائياً بعد ٤ ساعات.",
+    "openDashboard": "فتح لوحة الطبيب",
+    "newPatient": "مريض جديد",
+    "patientType": {
+      "self": "مريض بالغ، تقرير ذاتي",
+      "child": "مريض طفل",
+      "helping_someone": "تم الإبلاغ من قبل مرافق"
+    },
+    "visitRef": "رقم الزيارة",
+    "clinicalDisclaimer": "ملخص مُدخل من المريض. ليس تشخيصاً. القرار السريري النهائي يعود للطبيب المعالج.",
+    "companionRelation": "صلة المرافق"
+  },
+  "topbar": {
+    "newPatientConfirm": "بدء مريض جديد؟ سيتم مسح كل الإجابات الحالية."
+  },
+  "journey": {
+    "setup": "البداية",
+    "details": "التفاصيل",
+    "review": "المراجعة",
+    "doctor": "الطبيب"
+  },
+  "dashboard": {
+    "title": "لوحة الطبيب",
+    "empty": "لا يوجد مرضى بالانتظار.",
+    "highRisk": "عاجل",
+    "spotsCount": "{{count}} موضع",
+    "spotsCount_other": "{{count}} مواضع",
+    "markSeen": "تمت المعاينة",
+    "markUnseen": "إلغاء المعاينة",
+    "dismiss": "إزالة",
+    "justNow": "الآن",
+    "minutesAgo": "منذ {{count}} د",
+    "hoursAgo": "منذ {{count}} س",
+    "connectionError": "تعذّر الوصول إلى خادم اللوحة. هل هو يعمل؟",
+    "offlineHint": "شغّله باستخدام: npm run server",
+    "queue": "قائمة الفرز",
+    "waiting": "بالانتظار",
+    "noUrgent": "لا توجد حالات عاجلة",
+    "longestWait": "أطول انتظار: {{count}} د"
+  },
+  "triage": {
+    "title": "الأولوية المقترحة",
+    "basedOn": "بناءً على",
+    "disclaimer": "اقتراح مبني على قواعد ثابتة من إجابات المريض. ليس تشخيصاً — التقييم السريري مطلوب.",
+    "level": {
+      "2": "طارئ",
+      "3": "عاجل",
+      "4": "أقل إلحاحاً",
+      "5": "غير عاجل"
+    },
+    "levelShort": "المستوى {{level}}",
+    "reasons": {
+      "breathing": "صعوبة في التنفس",
+      "chestPain": "ألم شديد في الصدر",
+      "maxPain": "ألم بأقصى شدة (١٠/١٠)",
+      "bleeding": "نزيف",
+      "severePain": "ألم شديد (٧+/١٠)",
+      "cantMove": "عدم القدرة على تحريك المنطقة المصابة",
+      "injury": "سقوط أو إصابة حديثة مع ألم ملحوظ",
+      "feverPlus": "حرارة مع غثيان أو دوخة",
+      "moderatePain": "ألم متوسط (٤-٦/١٠)",
+      "lowPain": "ألم خفيف أو لا يوجد ألم"
+    }
+  },
+  "clinicalRegions": {
+    "epigastric": "المنطقة الشرسوفية",
+    "umbilical": "المنطقة السرّية",
+    "hypogastric": "المنطقة تحت السرّية (فوق العانة)",
+    "hypochondriac_left": "المَراق الأيسر",
+    "hypochondriac_right": "المَراق الأيمن",
+    "flank_left": "المنطقة القطنية اليسرى (الخاصرة)",
+    "flank_right": "المنطقة القطنية اليمنى (الخاصرة)",
+    "iliac_left": "الحفرة الحرقفية اليسرى",
+    "iliac_right": "الحفرة الحرقفية اليمنى",
+    "loin_left": "الخاصرة الخلفية اليسرى",
+    "loin_right": "الخاصرة الخلفية اليمنى"
+  }
+}
