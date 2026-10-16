@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 import i18n, { isRtl } from '../i18n';
-import { fetchSessions, markSessionSeen, deleteSession, ApiUnavailableError, type DashboardEntry } from '../api';
+import { fetchSessions, markSessionSeen, deleteSession, isOfflineBoard, type DashboardEntry } from '../api';
 import { clinicalFields } from '../utils/clinicalText';
 import { ClinicalFieldGrid } from '../components/base/ClinicalFieldGrid';
 import { Avatar } from '../components/base/Avatar';
@@ -144,22 +144,18 @@ function QueueRow({
 export function DoctorDashboard() {
   const [lang, setLang] = useState<Language>(loadLang);
   const [entries, setEntries] = useState<DashboardEntry[]>([]);
-  const [error, setError] = useState(false);
+  const [offline, setOffline] = useState(false);
   const [now, setNow] = useState(() => Date.now());
   const tf = i18n.getFixedT(lang, 'translation');
   const dir = isRtl(lang) ? 'rtl' : 'ltr';
 
   const refresh = useCallback(async () => {
-    try {
-      const list = await fetchSessions();
-      // The server already orders by acuity then wait time; re-sort defensively
-      // so the board stays correct even against an older server build.
-      list.sort((a, b) => a.triageLevel - b.triageLevel || a.createdAt - b.createdAt);
-      setEntries(list);
-      setError(false);
-    } catch (err) {
-      if (err instanceof ApiUnavailableError) setError(true);
-    }
+    const list = await fetchSessions();
+    // The server already orders by acuity then wait time; re-sort defensively
+    // so the board stays correct even against an older server build.
+    list.sort((a, b) => a.triageLevel - b.triageLevel || a.createdAt - b.createdAt);
+    setEntries(list);
+    setOffline(isOfflineBoard());
   }, []);
 
   useEffect(() => {
@@ -259,6 +255,12 @@ export function DoctorDashboard() {
             </span>
           ))}
 
+          {offline && (
+            <span className="rounded-pill bg-slate-200 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-600">
+              {tf('dashboard.offlineBoard')}
+            </span>
+          )}
+
           <span className="ms-auto flex items-center gap-1.5 text-xs font-bold">
             {urgentCount > 0 ? (
               <span className="flex items-center gap-1.5 rounded-pill bg-red-100 px-3 py-1 text-red-700">
@@ -279,14 +281,7 @@ export function DoctorDashboard() {
       </header>
 
       <main className="mx-auto max-w-4xl px-6 py-6">
-        {error && (
-          <div className="mb-4 rounded-md border border-alert bg-alert-soft px-5 py-4 text-alert">
-            <p className="font-bold">{tf('dashboard.connectionError')}</p>
-            <p className="text-sm opacity-90">{tf('dashboard.offlineHint')}</p>
-          </div>
-        )}
-
-        {entries.length === 0 && !error ? (
+        {entries.length === 0 ? (
           <div className="flex flex-col items-center gap-3 rounded-md border border-dashed border-slate-300 bg-white px-6 py-14 text-center">
             <DashboardIcon className="h-10 w-10 text-slate-300" />
             <p className="text-lg font-medium text-slate-400">{tf('dashboard.empty')}</p>

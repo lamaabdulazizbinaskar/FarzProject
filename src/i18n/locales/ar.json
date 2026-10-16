@@ -240,12 +240,11 @@
     "justNow": "الآن",
     "minutesAgo": "منذ {{count}} د",
     "hoursAgo": "منذ {{count}} س",
-    "connectionError": "تعذّر الوصول إلى خادم اللوحة. هل هو يعمل؟",
-    "offlineHint": "شغّله باستخدام: npm run server",
     "queue": "قائمة الفرز",
     "waiting": "بالانتظار",
     "noUrgent": "لا توجد حالات عاجلة",
-    "longestWait": "أطول انتظار: {{count}} د"
+    "longestWait": "أطول انتظار: {{count}} د",
+    "offlineBoard": "وضع العرض · هذا المتصفح فقط"
   },
   "triage": {
     "title": "الأولوية المقترحة",

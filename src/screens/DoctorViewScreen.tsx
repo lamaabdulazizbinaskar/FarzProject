@@ -134,7 +134,7 @@ export function DoctorViewScreen() {
         </button>
         <div className="flex flex-wrap items-center gap-2">
           <a
-            href="/dashboard"
+            href="#dashboard"
             target="_blank"
             rel="noreferrer"
             aria-label={t('doctor.openDashboard')}

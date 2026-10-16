@@ -240,12 +240,11 @@
     "justNow": "Just now",
     "minutesAgo": "{{count}}m ago",
     "hoursAgo": "{{count}}h ago",
-    "connectionError": "Can't reach the dashboard server. Is it running?",
-    "offlineHint": "Start it with: npm run server",
     "queue": "Triage queue",
     "waiting": "waiting",
     "noUrgent": "No urgent cases",
-    "longestWait": "Longest wait: {{count}} min"
+    "longestWait": "Longest wait: {{count}} min",
+    "offlineBoard": "Demo mode · this browser only"
   },
   "triage": {
     "title": "Suggested priority",
